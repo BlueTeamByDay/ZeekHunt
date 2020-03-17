@@ -1,0 +1,6 @@
+cat conn.log | zeek-cut uid id.orig_h id.resp_h duration | sort -nr -k4 | head -n 5
+This ^^ will display the top 5 connections by duration. From here, we grab the UID of the top connection and grep out the full connection details. For me, the top connection is labeled
+
+DNS queries longer than 25 character and see how many times they show up (splunk needed)
+
+httplog ==> user-agent strings --> look for the 100 least common agents on the network. Probably 2-3 will be malware, look for shell commands, etc. 
