@@ -1,0 +1,16 @@
+# in x509.log or ssl.log if these show up that is worth looking into
+
+ST=Denial
+O=Dis
+localhost
+C=XX
+L=Default City
+O=Default Company Ltd
+example.com
+Some-State
+Internet Widgits Pty Ltd
+domain.com
+My Company Name LTD
+AsyncRAT Server
+Orcus Server
+southnorth.org
