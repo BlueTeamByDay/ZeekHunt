@@ -1,5 +1,4 @@
 # in x509.log or ssl.log if these show up that is worth looking into
-
 ST=Denial
 O=Dis
 localhost
