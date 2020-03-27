@@ -16,3 +16,4 @@ southnorth.org
 SomeOrganization
 SomeCity
 SomeOraganizationalUnit
+C=, ST=, L=, O=, OU=, CN=  // <--- this is Cobalt Strike Default cert //
